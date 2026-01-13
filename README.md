@@ -28,17 +28,17 @@ The pinout layout is widely used across different vendors of breakout boards wit
 
 ---
 
-![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-01-front.png)
-*Figure: BH1900NUX sensor breakout board front view (Rohm Semiconductor)*
+![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-01-top.png)
+*Figure: BH1900NUX sensor breakout board top view (Rohm Semiconductor)*
 
-![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-02-front.png)
-*Figure: BH1900NUX sensor breakout board front view (Rohm Semiconductor)*
+![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-02-top.png)
+*Figure: BH1900NUX sensor breakout board top view (Rohm Semiconductor)*
 
 ![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-01-back.png)
 *Figure: BH1900NUX sensor breakout board back view (Rohm Semiconductor)*
 
-![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-02-back.png)
-*Figure: BH1900NUX sensor breakout board back view (Rohm Semiconductor)*
+![BH1900NUX Breakout Board Front](/docs/BH1900NUX-pcb-01-bottom.png)
+*Figure: BH1900NUX sensor breakout board bottom view (Rohm Semiconductor)*
 
 # Additional resources
 [Official BH1900NUX Product Page (ROHM Website)](https://www.rohm.com/products/sensors-mems/temperature-sensor-ics/bh1900nux-product)

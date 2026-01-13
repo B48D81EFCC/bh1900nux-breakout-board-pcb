@@ -5,11 +5,307 @@
 	(uuid "20f91bd8-4dde-4b3c-bab9-5213ca096c20")
 	(paper "A4")
 	(title_block
-		(title "Rohm Semiconductor BH1900NUX Breakout Board")
-		(date "2025-11-09")
-		(rev "0.1")
+		(title "BH1900NUX - Miniature Temperature Sensor")
+		(date "2026-01-13")
+		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "BH1900NUX:BH1900NUX-TR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BH1900NUX-TR"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "VSON008X2030_ROM"
+				(at 21.336 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "BH1900NUX-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BH1900NUX-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSON008X2030_ROM VSON008X2030_ROM-M VSON008X2030_ROM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BH1900NUX-TR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 33.02 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -15.24) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "" input line)
+				)
+			)
+			(symbol "BH1900NUX-TR_1_1"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "" input line)
+				)
+				(pin no_connect line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -708,302 +1004,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Rohm_BH1900NUX_ALT:BH1900NUX-TR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BH1900NUX-TR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "VSON008X2030_ROM"
-				(at 21.336 -16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "BH1900NUX-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BH1900NUX-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSON008X2030_ROM VSON008X2030_ROM-M VSON008X2030_ROM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BH1900NUX-TR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -15.24) (xy 33.02 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -15.24) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -10.16 180)
-					(length 7.62)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "" input line)
-				)
-			)
-			(symbol "BH1900NUX-TR_1_1"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "" input line)
-				)
-				(pin no_connect line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1327,7 +1327,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 58.42) (xy 156.21 49.53)
+			(xy 107.95 59.69) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5059bb57-32f4-4917-b7c8-f61f5d3fd8b4")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 158.75 49.53)
+			(xy 105.41 67.31) (xy 105.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1404,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "8fe8382d-a3c7-450a-b156-301cae680b47")
+	)
+	(wire
+		(pts
+			(xy 110.49 59.69) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a059fb0-1bb8-4dba-aba1-9748c1ce8c4e")
 	)
 	(wire
 		(pts
@@ -1539,7 +1559,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 201.93 57.15 270)
+		(at 125.73 59.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1549,7 +1569,7 @@
 		)
 		(uuid "3383939d-c411-48d7-9368-67a192183c5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 63.7033 90)
+			(at 125.73 66.2433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1581,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 196.85 57.15 270)
+		(at 120.65 59.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1571,7 +1591,7 @@
 		)
 		(uuid "7dd2f98a-296e-419a-9cee-7001d6092432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 63.6428 90)
+			(at 120.65 66.1828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1603,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 161.29 49.53 270)
+		(at 107.95 59.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,7 +1613,7 @@
 		)
 		(uuid "894639fc-df7a-4e4b-938c-75e72750d784")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 56.0833 90)
+			(at 107.95 66.2433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1647,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 163.83 49.53 270)
+		(at 110.49 59.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1637,7 +1657,7 @@
 		)
 		(uuid "ed29e484-98ab-4ee1-b847-5281c1bd4e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 56.0228 90)
+			(at 110.49 66.1828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1669,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 58.42 0)
+		(at 105.41 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1658,7 +1678,7 @@
 		(dnp no)
 		(uuid "0f407eee-16b4-4551-bb4a-549c2b088b84")
 		(property "Reference" "#PWR013"
-			(at 158.75 54.61 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1687,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 158.7501 62.23 90)
+			(at 105.4101 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 58.42 0)
+			(at 105.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 58.42 0)
+			(at 105.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 158.75 58.42 0)
+			(at 105.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 158.75 44.45 90)
+		(at 105.41 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1795,7 +1815,7 @@
 		(dnp no)
 		(uuid "107ba1fb-b874-4638-a461-4fd620e69799")
 		(property "Reference" "J1"
-			(at 160.274 41.656 90)
+			(at 106.934 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1823,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 161.798 39.624 90)
+			(at 108.458 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "Riehlhome:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 158.75 44.45 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 44.45 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 158.75 44.45 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2082,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 53.34 0)
+		(at 120.65 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2071,7 +2091,7 @@
 		(dnp no)
 		(uuid "72fb0e74-df40-43d2-8f8d-67378a2c1c09")
 		(property "Reference" "R2"
-			(at 194.564 53.34 90)
+			(at 118.364 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2099,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 196.85 53.594 90)
+			(at 120.65 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 198.628 53.34 90)
+			(at 122.428 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 53.34 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 53.34 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rohm_BH1900NUX_ALT:BH1900NUX-TR")
+		(lib_id "BH1900NUX:BH1900NUX-TR")
 		(at 132.08 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2555,7 +2575,7 @@
 			)
 		)
 		(property "Footprint" "VSON008X2030_ROM"
-			(at 152.146 75.692 0)
+			(at 153.416 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2713,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 201.93 49.53 0)
+		(at 125.73 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2702,7 +2722,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcc80469-3156-416b-8457-62fa3f8fd924")
 		(property "Reference" "#PWR019"
-			(at 201.93 53.34 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2731,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.9301 45.72 90)
+			(at 125.7301 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 49.53 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 49.53 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 49.53 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 58.42 0)
+		(at 102.87 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2905,7 +2925,7 @@
 		(dnp no)
 		(uuid "c20b6b83-56c8-4531-bbe4-2d3e4084825a")
 		(property "Reference" "#PWR018"
-			(at 156.21 64.77 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.2099 62.23 90)
+			(at 102.8699 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 58.42 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 58.42 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 58.42 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3190,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 53.34 0)
+		(at 125.73 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3179,7 +3199,7 @@
 		(dnp no)
 		(uuid "fb697619-db82-4cc0-8a4c-307bf3519180")
 		(property "Reference" "R3"
-			(at 199.644 53.34 90)
+			(at 123.444 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3207,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 201.93 53.594 90)
+			(at 125.73 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3215,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 203.708 53.34 90)
+			(at 127.508 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 53.34 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3233,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 201.93 53.34 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3258,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 196.85 49.53 0)
+		(at 120.65 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3247,7 +3267,7 @@
 		(fields_autoplaced yes)
 		(uuid "fec8c720-a38a-40b7-a21c-129e9b10ffbe")
 		(property "Reference" "#PWR016"
-			(at 196.85 53.34 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3276,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 196.8501 45.72 90)
+			(at 120.6501 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +3285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 49.53 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 49.53 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 49.53 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
