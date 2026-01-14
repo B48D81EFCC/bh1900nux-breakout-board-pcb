@@ -60,11 +60,11 @@ If you plan to produce and assembly the board I can recommend using PCBWay.
 The board looks high-quality, the corners and edges are cleanly cut, and there are no rough breaks, as is often the case with other boards.
 There are no visible residues of flux, which is important not only for aesthetic reasons, but also because flux residues can be corrosive.
   
-Moreover my service contact during the order process was very patient wit me and helped me to fix two issues I had with my design.
+Moreover my service contact during the order process was very patient with me and helped me to fix two issues I had with my design.  
+Have a look on you own below:
 
-![BH1900NUX PCB](/docs/PCB-01.jpg)  
+![BH1900NUX PCB](/docs/PCB-01.jpg)   
 ![BH1900NUX PCB](/docs/PCB-02.jpg)
-
 
 
 # Additional resources
