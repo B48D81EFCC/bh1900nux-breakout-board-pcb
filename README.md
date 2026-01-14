@@ -53,7 +53,9 @@ The pinout layout is widely used across different vendors of breakout boards wit
 | C1       | C_0201_0603Metric                    | 1                                  | Capacistor, Ceramic 100nF       |
 
 
-## PCBWay (sponsored)
+# Project Supporter
+![BH1900NUX Breakout Board Front](/docs/pcbway-logo.png)
+
 PCBWay was so kind to help me to realize this project by sponsoring it.
 Overall I am very statisfied with the quality of the PCB.  
 If you plan to produce and assembly the board I can recommend using PCBWay.
