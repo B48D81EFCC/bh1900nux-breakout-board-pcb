@@ -56,7 +56,7 @@ The pinout layout is widely used across different vendors of breakout boards wit
 # Project Supporter
 ![BH1900NUX Breakout Board Front](/docs/pcbway-logo.png)
 
-PCBWay was so kind to help me to realize this project by sponsoring it.
+[PCBWay](https://www.pcbway.com/) was so kind to help me to realize this project by sponsoring it.
 Overall I am very statisfied with the quality of the PCB.  
 If you plan to produce and assembly the board I can recommend using PCBWay.
 The board looks high-quality, the corners and edges are cleanly cut, and there are no rough breaks, as is often the case with other boards.
@@ -70,4 +70,5 @@ Have a look on you own below:
 
 
 # Additional resources
-[Official BH1900NUX Product Page (ROHM Website)](https://www.rohm.com/products/sensors-mems/temperature-sensor-ics/bh1900nux-product)
+[Official BH1900NUX Product Page (ROHM Website)](https://www.rohm.com/products/sensors-mems/temperature-sensor-ics/bh1900nux-product)  
+[PCBWay (Offical Website)](https://www.pcbway.com/)
